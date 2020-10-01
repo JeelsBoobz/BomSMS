@@ -1,4 +1,5 @@
 <?php
+echo "Hello World";
 function auto($action, $payload) {
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
